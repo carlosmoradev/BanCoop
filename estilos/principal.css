@@ -1,12 +1,16 @@
-html, ul, nav {
+body, html, ul, nav, h2 {
   font-family: arial;
   margin: 0;
   padding: 0;
   /*background-color: peru;*/
 }
 
+footer{
+  text-align: center;
+}
+
 nav{
-  background-color: rgba(95,141,211,0.5);
+  /*background-color: rgba(95,141,211,0.5);*/
   padding: 8px;
 }
 
@@ -36,6 +40,27 @@ nav a{
   color: black;
 }
 
+nav ul li a:hover{
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  /*padding: 8px;*/
+  padding: 1em 3em;
+  margin: 0 5px 1px 0;
+  /*font-size: 1.2em;*/
+  font-weight: 600;
+  color: black;
+  background-color: rgba(95,141,211,0.7);
+  border-radius: 1em;
+}
+
+label{
+  margin: 0;
+  display: inline-block;
+  padding: 0
+  widows: 25%;
+}
+
 video{
   position: fixed;
   top: 0;
@@ -50,6 +75,56 @@ video{
 margin: 0;
 }*/
 
+#formulario{
+  /*display: block;*/
+margin: 0;
+padding: 0;
+/*direction: rtl;*/
+/*background-color: rgba(95,141,211,0.5);*/
+background-image: url(../imagenes/fondoLogin.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: auto 80%;
+box-shadow: 5px 6px 5px rgba(95,141,211,0.5);
+
+/*border-radius: 1em;*/
+height: 400px;
+/*border-color: olive;*/
+/*box-shadow: 5px 5px 10px olive;*/
+}
+
+#formulario h2{
+  text-align: center;
+  padding-bottom: 3em;
+}
+#formulario ul{
+  list-style: none;
+  /*display: inline-flex;*/
+}
+
+#formulario li{
+padding-bottom: 2em;
+}
+
+#formulario input {
+  display: block;
+  /*position: relative;*/
+  direction: ltr;
+  clear: both;
+  margin: 0;
+  height: 20px;
+  width: 15em;
+  padding: 5px 8px;
+  border-radius: 0.5em;
+}
+
+
+#formulario li label, #formulario li input{
+  margin: 0.5em;
+  display: inline-block;
+  /*vertical-align: top;*/
+}
+
 #portada{
   margin: 0;
   padding: 0;
@@ -59,11 +134,45 @@ margin: 0;
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: 1em 2em;
-  background-color: rgba(200,200,200,0.5);
+  /*background-color: rgba(200,200,200,0.5);*/
 }
+
+#ingreso{
+  margin: 1em;
+  padding: 0.5em 1em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.5em;
+ }
+
+#servicios{
+  width: 20%;
+}
+
+#servicios, #noticias{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2px;
+}
+
+#noticias{
+  color: black;
+padding: 0;
+margin: 0;
+overflow: hidden;
+display: inline-table;
+vertical-align: top;
+background-color: purple;
+}
+
+/*#noticia1, #noticia2{
+  display: inline-block;
+  vertical-align: top;
+}*/
 
 #login{
   width: 28%;
+  /*height: 400px;*/
 }
 
 #logo{
@@ -89,4 +198,15 @@ margin: 0;
   margin-left: 387px;
   width: 530px;
   height: 300px;
+}
+
+.formulario{
+  text-align: center;
+}
+/*.portada{
+  height: 400px;
+}*/
+
+.productos{
+  margin-bottom: 2em;
 }
