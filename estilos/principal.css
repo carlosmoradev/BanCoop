@@ -13,7 +13,7 @@
   src: url(../fuentes/OpenSans.ttf);
 }
 
-article, body, html, ul, nav, h2, section {
+article, body, html, ul, nav, h2, section, p {
   font-family: "OpenSans";
   margin: 0;
   padding: 0;
@@ -82,6 +82,16 @@ video{
   overflow: hidden;
   z-index: -100;
 }
+
+#articulos{
+  display: inline-flex;
+  /*height: 50%;*/
+  overflow: hidden;
+  vertical-align: top;
+  width: 100%;
+
+}
+
 
 #cabeceraPortada{
   display: inline-flex;
@@ -211,12 +221,17 @@ padding-bottom: 2em;
   margin: 0 4px 0 0;
 }
 
+.imgNoticia{
+  margin: 0;
+  padding: 0;
+  height: 6em;
+}
+
 .noticias-cnt {
   margin: 0 0 0 1.5em;
   padding: 1em 0;
   width: auto;
-  display: -webkit-flex;
-  display: flex;
+  display: inline-flex;
 
 }
 
