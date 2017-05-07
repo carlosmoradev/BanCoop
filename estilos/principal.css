@@ -185,6 +185,12 @@ padding-bottom: 2em;
   margin-top: 2px;
 }
 
+.art-noticia{
+  border-radius: 0.5em;
+  box-shadow: 5px 6px 5px rgba(95,141,211,0.9);
+  margin: 0 0 2em 0;
+}
+
 .contenedorPortada{
   width: 65%;
 }
@@ -200,13 +206,17 @@ padding-bottom: 2em;
   text-align: center;
 }
 
+.icono{
+  height: 1.2em;
+  margin: 0 4px 0 0;
+}
+
 .noticias-cnt {
   margin: 0 0 0 1.5em;
   padding: 1em 0;
   width: auto;
   display: -webkit-flex;
   display: flex;
-  background-color: ligthgrey;
 
 }
 
