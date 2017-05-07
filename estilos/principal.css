@@ -21,6 +21,9 @@ article, body, html, ul, nav, h2, section, p {
 
 footer{
   text-align: center;
+  margin: 3em 0 1em 0;
+  box-shadow: 5px -6px 5px rgba(95,141,211,0.6);
+
 }
 
 label{
@@ -159,20 +162,11 @@ padding-bottom: 2em;
    width: auto;
  }
 
- /*#logo{
-   width: 15%;
- }*/
-
 #portada{
   margin: 0;
   padding: 0;
   width: 100%;
 }
-
-/*#portada, #login{
-  display: inline-block;
-  vertical-align: top;
-}*/
 
 #servicios{
   width: 30%;
@@ -182,7 +176,6 @@ padding-bottom: 2em;
   box-shadow: 5px 6px 5px rgba(95,141,211,0.9);
   border-radius: 0.5em;
   margin-left: 3em;
-
 }
 
 #servicios li{
@@ -211,15 +204,32 @@ padding-bottom: 2em;
 
 }
 
+.contenido p{
+  padding: 0.5em 1em ;
+}
+
 .contenedorPortada{
   width: 65%;
 }
 
 .espacioSuperior{
+  height: 80%
+}
+
+.espacioSuperior, .pSecundaria{
+  display: flex;
   background-image: url(../imagenes/Logo.png);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top left;
+}
+
+.fondoPsecundaria{
+  margin: 1em 0;
+  padding: 0 0 0 35%;
+  border-radius: 1em;
+  height: 100%;
+  width: auto;
 }
 
 .formulario{
@@ -249,11 +259,6 @@ padding-bottom: 2em;
    font-weight: 600;
  }
 
-/*.imgNoticia, .pNoticia{
-  display: inline-block;
-  vertical-align: top;
-}*/
-
 .noticias-cnt {
   margin: 0 0 0 1.5em;
   padding: 1em 0;
@@ -274,6 +279,10 @@ padding-bottom: 2em;
   background-size: 50%;
   background-position: bottom;
   }
+
+.pSecundaria{
+  height: 300px;
+}
 
 .tarjetas{
   background-position: bottom;
