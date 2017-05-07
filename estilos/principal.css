@@ -227,11 +227,24 @@ padding-bottom: 2em;
 
 .productos{
   margin-bottom: 2em;
+  background-image: url(../imagenes/fondoTransacciones.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: bottom;
+  }
+
+.tarjetas{
+  background-position: bottom;
+  background-image: url(../imagenes/tarjetasCredito.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: bottom;
 }
 
 .tituloSeccion{
   font-family: "Latinia";
-  color: rgba(95,141,211,1);
+  color: blue;
+  text-align: center;
 }
 
 .videoPortada{
