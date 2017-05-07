@@ -1,5 +1,20 @@
+@font-face {
+  font-family: "GloriaHallelujah";
+  src: url(../fuentes/GloriaHallelujah.ttf);
+}
+
+@font-face {
+  font-family: "Latinia";
+  src: url(../fuentes/Latinia.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fuentes/OpenSans.ttf);
+}
+
 article, body, html, ul, nav, h2, section {
-  font-family: arial;
+  font-family: "OpenSans";
   margin: 0;
   padding: 0;
 }
@@ -24,6 +39,10 @@ nav a{
   text-align: center;
   text-decoration: none;
   padding: 1em 3em;
+  /*background-color: rgba(95,141,211,0.5);*/
+  /*font-size: 1.5em;*/
+  box-shadow: 5px 5px 5px;
+  border-radius: 1em;
   margin: 6px;
   color: black;
 }
@@ -33,7 +52,7 @@ nav ul{
   margin: 0 2px;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 nav li{
@@ -135,20 +154,11 @@ padding-bottom: 2em;
   margin: 0;
   padding: 0;
   width: 68%;
-  /*height: 400px;*/
-  /*background-image: url(../imagenes/creciendoJuntos.png);
-  background-repeat: no-repeat;
-  background-size: 40%;
-  background-position: 1em 2em;*/
 }
 
 #portada, #login{
   display: inline-block;
   vertical-align: top;
-}
-
-#pprincipal{
-
 }
 
 #servicios{
@@ -163,6 +173,13 @@ padding-bottom: 2em;
 
 .contenedorPortada{
   width: 65%;
+}
+
+.espacioSuperior{
+  background-image: url(../imagenes/Logo.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top right;
 }
 
 .formulario{
@@ -188,13 +205,13 @@ padding-bottom: 2em;
   margin-bottom: 2em;
 }
 
+.tituloSeccion{
+  font-family: "Latinia";
+  color: rgba(95,141,211,1);
+}
+
 .videoPortada{
   position: relative;
-  /*top: 1px;
-  right: 10px;
-  margin-left: 387px;
-  width: 530px;
-  height: 300px;*/
   margin-right: 1px;
   width: 100%;
-  }
+}
